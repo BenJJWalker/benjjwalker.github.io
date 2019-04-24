@@ -9,10 +9,43 @@ a:hover {
   color: #FFDDB7;
 }
 
+/* Custom Primary default button */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #B7A28A; /* In-text colour on button */
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
+  color: #B7A28A; /* In-text colour on button */
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/* Custom Card Headers */
+
+.card-header,
+.card-header:hover,
+.card-header:focus {
+  color: #B7A28A; /* In-text colour on button */
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+/* Custom Card Body */
+
+.card-body,
+.card-body:hover,
+.card-body:focus {
   color: #B7A28A; /* In-text colour on button */
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
