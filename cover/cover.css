@@ -6,14 +6,14 @@
 a,
 a:focus,
 a:hover {
-  color: #FFC300;
+  color: #FFDDB7;
 }
 
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #DFB78B; /* In-text colour on button */
+  color: #9F8363; /* In-text colour on button */
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
@@ -76,8 +76,8 @@ body {
 }
 
 .nav-masthead .active {
-  color: #FFC300;
-  border-bottom-color: #FFC300;
+  color: #FFDDB7;
+  border-bottom-color: #FFDDB7;
 }
 
 @media (min-width: 48em) {
