@@ -168,3 +168,7 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+foot {
+  padding-bottom: 56px;
+}
