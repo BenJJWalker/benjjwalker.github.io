@@ -53,12 +53,22 @@ a:hover {
 }
 
 
-page-item
 /* Custom Page Item */
 
 .page-item,
 .page-item:hover,
 .page-item:focus {
+  color: #B7A28A; /* In-text colour on button */
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+/* Custom Page Item */
+
+.page-link,
+.page-link:hover,
+.page-link:focus {
   color: #B7A28A; /* In-text colour on button */
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
